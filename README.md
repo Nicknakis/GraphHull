@@ -1,4 +1,4 @@
-# GraphHull (AISTATS26 SPOTLIGHT)
+# GraphHull (AISTATS 26 Spotlight)
 
 Python 3.8.3 and Pytorch 1.12.1 implementation of the Archetypal Graph Generative Models: Explainable and Identifiable Communities via Anchor-Dominant Convex Hulls spotlight paper, as is to appear in the 29th International Conference on Artificial Intelligence and Statistics (AISTATS) 2026, Tangier, Morocco. PMLR: Volume 300. Copyright 2026 by the
 author(s).
