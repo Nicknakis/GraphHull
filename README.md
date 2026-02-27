@@ -12,5 +12,5 @@ tasks such as link prediction, community detection, and network visualization. D
 
 ## Reference
 
-[Archetypal Graph Generative Models: Explainable and Identifiable Communities via Anchor-Dominant Convex Hulls](). Nikolaos Nakis, Chrysoula Kosma, Panagiotis Promponas, Michail Chatzianastasis, and Giannis Nikolentzos, AISTATS 26 (Spotlight Paper)
+[Archetypal Graph Generative Models: Explainable and Identifiable Communities via Anchor-Dominant Convex Hulls](https://arxiv.org/abs/2602.21342). Nikolaos Nakis, Chrysoula Kosma, Panagiotis Promponas, Michail Chatzianastasis, and Giannis Nikolentzos, AISTATS 26 (Spotlight Paper)
 
