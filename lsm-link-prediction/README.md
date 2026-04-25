@@ -1,4 +1,4 @@
-# Latent Space Model (LSM) with Anchor-Dominant Convex Hulls
+# GraphHull: Latent Space Model (LSM) with Anchor-Dominant Convex Hulls
 
 A PyTorch implementation of a Latent Space Model for graph link prediction that learns
 global archetypes and local convex hulls per community.
