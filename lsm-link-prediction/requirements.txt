@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+networkx
+torch
+cvxopt
+# torch_sparse is OPTIONAL — only required if you call LSM.sample_network().
+# Neither the training loop nor evaluation calls it. Install only if you need
+# to extend the model. Note: it must be built against your exact PyTorch /
+# CUDA version. See: https://github.com/rusty1s/pytorch_sparse
+# torch_sparse
