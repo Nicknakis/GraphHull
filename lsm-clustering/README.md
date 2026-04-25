@@ -76,13 +76,3 @@ The script:
   with anchor-dominant local hulls).
 - Reports NMI and ARI against ground-truth labels every 100 epochs.
 
-## Notes
-
-- This is the clustering variant; it does **not** include a link-prediction
-  evaluation (see the sibling project for that).
-- No calculations, hyperparameters, libraries, or numerical behavior were
-  changed during refactoring — only file organization.
-- The methods `clustering_` and `clustering_kmeans` on the `LSM` class are
-  preserved exactly as written. `clustering_` references `k_labs` and `SEED`
-  from outside the class and is not invoked by the main training loop, so it is
-  kept for reference only.
