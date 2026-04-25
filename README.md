@@ -40,7 +40,6 @@ Each subfolder contains its own `README.md`, `requirements.txt`, `main.py`, `lsm
 | **Grad clip** | 5.0 | 2.0 |
 | **Initialization** | `init_biases_from_degrees` + spectral + centroid SVD | `init_phase1_stable` (canonicalize spectral, farthest-first anchors, entropy-calibrated logits, density-calibrated `b0`) |
 | **Post-training** | Extensive PCA / hull / circular / adjacency plots | Training-only |
-| **Extras** | `EMA`, `hulls_intersect_lp`, `hull_min_distance_qp` | `dpp_across_hulls_centroid_gram`, K-means clustering helpers |
 
 ## Requirements
 
