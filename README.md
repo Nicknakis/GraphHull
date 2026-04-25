@@ -33,7 +33,8 @@ Each subfolder contains its own `README.md`, `requirements.txt`, `main.py`, `lsm
 |---|---|---|
 | **Evaluation** | AUC-ROC / AUC-PR | NMI / ARI |
 | **Determinism** | Not enforced | Full deterministic seeding |
-| **`A_svd_boxed`** | Square `(K,K)` SVD | Low-rank `(K, r) × (D, r)`, `r = min(K, D)` |
+| **`A_svd_boxed`** | Used with `K = D` in experiments | Used with `K = D` in experiments |
+| **`σ` box** | `[0.5, 2.5]` | `[0.1, 1.5]` |
 | **Phase transitions** | scaling→phase1 @ 1000, phase1→phase2 @ 2000 | scaling→phase1 @ 200, phase1→phase2 @ 2000 |
 | **LR schedule** | drops to 0.01 @ 5000 | drops to 0.01 @ 2000, then 0.001 @ 4000 |
 | **Grad clip** | 5.0 | 2.0 |
