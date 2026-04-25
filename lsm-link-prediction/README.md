@@ -82,8 +82,4 @@ your own runner.
   - Per-community circular plots.
   - Pairwise hull intersection / minimum-distance diagnostics.
 
-## Notes
 
-No calculations, libraries, or numerical behavior were changed during refactoring —
-only file organization. The `EMA` class is provided but not invoked in the training
-loop (matching the original script).
