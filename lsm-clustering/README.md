@@ -1,4 +1,4 @@
-# Latent Space Model (LSM) — Clustering Variant
+# GraphHull: Latent Space Model (LSM) — Clustering Variant
 
 A PyTorch implementation of an LSM that learns global archetypes and local
 convex hulls per community, evaluated on a **node-clustering** task using NMI
